@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Uma fonte base ajuda no visual */
+}
+
+#header {
+    background-color: rgb(146, 81, 143);
+    padding: 20px; /* Em vez de uma altura fixa gigante, usamos padding */
+    display: flex;
+    justify-content: flex-start; /* Alinha o logo à esquerda. Use 'center' para centralizar */
+    align-items: center;
+}
+
+#header img {
+    width: 120px;
+    height: auto;
+}
+
+#main-pagina-home {
+    padding: 20px; /* Dá um respiro para o texto não colar na borda */
+}
+
+#main-pagina-home h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#main-pagina-home p {
+    color: rgb(97, 112, 243);
+    font-size: 15px;
+    line-height: 1.6; /* Melhora a leitura do texto */
+}
