@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarYe |  Vendas</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #a772d39d;
+            color: #222;
+        }
+        .container{
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #e6b0da;
+            padding: 30px;
+            border-radius: 25px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+        
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        p.descricao{
+            text-align: center;
+            margin-bottom: 30px;
+            color: #555;
+
+        }
+
+        .imagem-topo{
+            display: block;
+            width: 280px;
+            margin: 0 auto 20px auto;
+            border-radius:10px;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 12px;
+            text-align: left;
+            vertical-align: top;
+        
+        }
+
+        thead th{
+            background-color: #dcdcdc;
+            font-weight: bold;
+        }
+
+        tbody tr:nth-child(even){
+            background-color: #f9f9f9;
+
+        }
+        tfoot td{
+            background-color: #efefef;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .col-marca{
+            width: 30%;
+        }
+        .col-modelo{
+            width: 40%;
+        }
+        .col-ano{
+            width: 30%;
+        }
+
+        .imagem-carros{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+
+        }
+
+        .imagem-carros img{
+            width: 70px;
+            height: 45px;
+            object-fit: cover;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+
+        }
+
+        .rodape-imagem{
+            display: block;
+            width: 120px;
+            margin: 25px auto 0 auto;
+            opacity:0.9;
+        }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="imagem-topo" src="img/kanye.png" alt="McLaren">
+        <h1>Modelos de Carros em Estoque 2026</h1>
+        <p class="descricao">
+            Tabelas de veiculos disponiveis em estoque, multimarcas!
+        </p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="col-marca">Marca</th>
+                    <th class="col-modelo">Modelo</th>
+                    <th class="col-ano">Ano</th>
+                </tr>
+            </thead>
+                <!-- Inicio tbody -->
+                 <tbody>
+                    <!-- Veiculo Porsche -->
+                     <tr>
+                        <td rowspan="2">Porsche</td>
+                        <td>
+                            <div class="imagem-carros">
+                                <img src="img/porschestuttgart.png" alt="Porsche">
+                                <span> Stuttgart</span>
+                            </div>
+                        </td>
+                        <td>2026</td>
+                     </tr>
+
+                     <tr>
+                        
+                        <td>
+                            <div class="imagem-carros">
+                                <img src="img/porsche911.png" alt="Porsche">
+                                <span>911</span>
+                            </div>
+                        </td>
+                        <td>2026</td>
+                     </tr>
+
+                     <!-- Fim Veiculos Porsche-->
+
+
+                    <!-- Veiculo Lamborghini -->
+                     <tr>
+                        <td rowspan="2">Lamborghini</td>
+                        <td>
+                            <div class="imagem-carros">
+                                <img src="img/lamborghini-huracan.png" alt="Lamborghini">
+                                <span> Huracan </span>
+                            </div>
+                        </td>
+                        <td>2026</td>
+                     </tr>
+
+                     <tr>
+                        <td>
+                            <div class="imagem-carros">
+                                <img src="img/lamborghini-urus.png" alt="Lamborghini">
+                                <span>Urus</span>
+                            </div>
+                        </td>
+                        <td>2026</td>
+                     </tr>
+
+                     <!-- Fim Veiculos Lamborghini -->
+                     <!-- Inicio  -->
+                     <tr> 
+                        <td>Nissan</td>
+                        <td>
+                            <div class="imagem-carros">
+                                <img src="img/nissan.png" alt="Nissan">
+                                <span>r34</span>
+                            </div>
+                        </td>
+                        <td>2026</td>
+                     </tr>
+
+                     <!-- Fim Nissan -->  
+
+
+                 </tbody>
+
+                 <tfoot>
+                    <tr>
+                        <td colspan="3">Ultima atualização: 27/03/2026</td>
+                    </tr>
+                 </tfoot>       
+
+        </table>
+
+        <img class="rodape-imagem" src="img/kanye.png" alt="Logo Karnyes">
+
+
+
+    </div>
+</body>
+</html>
